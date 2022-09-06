@@ -5,7 +5,10 @@
       
     </script>
     <style>
-     
+      div{
+        max-width: 200px;
+        text-align: center;
+      }
     .valid {
       background-color: #78c67b;
       border: solid 2px #1e5d20;

@@ -1,5 +1,6 @@
 <script>
     import Button from "./Button.svelte";
+import Input from "./Input.svelte";
     export let title = ''
     export let richText = ''
 </script>
@@ -8,7 +9,7 @@
     <h2> { title } </h2>
     <p> { richText } </p>
     <div>
-        <input type="text" placeholder="Email Adress" />
+        <Input inputType="important" />
         <Button  textButton="Sign Up" buttonType="danger"/>
     </div>
 </div>
