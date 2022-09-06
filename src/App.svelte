@@ -1,13 +1,16 @@
 <script>
-import Button from "./lib/Button.svelte";
 import Card from "./lib/Card.svelte";
+import Input from "./lib/Input.svelte";
 </script>
 
-<Button buttonType="primary"></Button>
-
-<Card username="Hugo" 
+<Card username="John" 
       imageURL="https://randomuser.me/api/portraits/thumb/men/75.jpg"
       profileURl="https://randomuser.me/api" />
+
+<Input inputType="primary"/>
+
+
+
       
 
 

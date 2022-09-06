@@ -20,7 +20,7 @@ export let username;
 
 <style>
     .card-container {
-        border: 1px solid black;
+        border: 1px solid rgb(56, 56, 56);
         max-width: 20em;
         background-color: rgba(211, 211, 211, 0.652);
     }
