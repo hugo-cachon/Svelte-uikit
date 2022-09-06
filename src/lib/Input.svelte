@@ -1,8 +1,12 @@
 <script>
 export let inputType;
+export let placeholder;
 </script>
 
-<input class={inputType} type="text" required>
+<input class={inputType} 
+       type="text" 
+       placeholder={placeholder}
+       required>
 
 <style>
     input[type=text] {
