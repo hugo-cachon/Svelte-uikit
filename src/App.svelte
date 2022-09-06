@@ -1,6 +1,8 @@
 <script>
 import Card from "./lib/Card.svelte";
 import Input from "./lib/Input.svelte";
+import Menu from "./lib/Menu.svelte";
+const menuItems = ["Item1", "Item2", "Item3"];
 </script>
 
 <Card username="John" 
@@ -8,6 +10,8 @@ import Input from "./lib/Input.svelte";
       profileURl="https://randomuser.me/api" />
 
 <Input inputType="primary" placeholder="Primary"/>
+
+<Menu {menuItems} />
 
 
 

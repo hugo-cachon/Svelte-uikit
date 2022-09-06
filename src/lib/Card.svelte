@@ -11,11 +11,11 @@ export let username;
             <img src="{imageURL}" alt="random-user">
             <figcaption>{username}</figcaption>
         </figure>
-
+        
     <button>
         <a href="{profileURl}" target="_blank">Profile</a>
     </button>
-</div>
+    </div>
 </div>
 
 <style>
