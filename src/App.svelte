@@ -10,6 +10,11 @@ import Alert from './lib/Alert.svelte';
 import Newsletter from './lib/Newsletter.svelte';
 import Counter from "./lib/Counter.svelte";
 import GridTile from "./lib/GridTile.svelte";
+let product = {
+    title: 'No product provided',
+    src: 'https://img.icons8.com/ios/500/no-image.png',
+    cost: '$0',
+  };
 
      
 </script>
@@ -34,5 +39,5 @@ title="Lorem, ipsum dolor sit amet consectetur adipisicing elit"
 richText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis repellat in, 
 vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt tempora nisi?"/>
 <Counter/>
-
+<Counter/>
 <GridTile {product} />
