@@ -6,6 +6,7 @@ const menuItems = ["Item1", "Item2", "Item3"];
 import Button from './lib/Button.svelte';
 import Alert from './lib/Alert.svelte';
 import Newsletter from './lib/Newsletter.svelte';
+import Counter from "./lib/Counter.svelte";
      
 </script>
 
@@ -25,6 +26,7 @@ import Newsletter from './lib/Newsletter.svelte';
 title="Lorem, ipsum dolor sit amet consectetur adipisicing elit" 
 richText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis repellat in, 
 vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt tempora nisi?"/>
+<Counter/>
       
       
 
