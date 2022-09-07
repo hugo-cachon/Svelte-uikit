@@ -9,6 +9,8 @@ import Button from './lib/Button.svelte';
 import Alert from './lib/Alert.svelte';
 import Newsletter from './lib/Newsletter.svelte';
 import Counter from "./lib/Counter.svelte";
+import GridTile from "./lib/GridTile.svelte";
+
      
 </script>
 
@@ -32,9 +34,5 @@ title="Lorem, ipsum dolor sit amet consectetur adipisicing elit"
 richText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis repellat in, 
 vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt tempora nisi?"/>
 <Counter/>
-      
-      
 
-
-
-
+<GridTile {product} />
