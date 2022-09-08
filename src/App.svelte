@@ -14,10 +14,31 @@ let product = {
     title: 'No product provided',
     src: 'https://img.icons8.com/ios/500/no-image.png',
     cost: '$0',
-  };
 
+  };
+import Red from './lib/Red.svelte';
+import Green from './lib/Green.svelte';
+
+	const options = [
+		{ color: 'red',   component: Red },
+		{ color: 'green', component: Green },
+	];
+
+	let selected = options[0];
      
 </script>
+
+<select bind:value={selected}>
+	{#each options as option}
+		<option value={option}>{option.color}</option>
+	{/each}
+</select>
+
+{#if selected.color === 'red'}
+	<Red/>
+{:else if selected.color === 'green'}
+	<Green/>
+{/if}
 
 <Card username="John" 
       imageURL="https://randomuser.me/api/portraits/thumb/men/75.jpg"
